@@ -1,3 +1,5 @@
+#!/usr/bin/python2.7
+
 import numpy as np
 import os
 import six.moves.urllib as urllib
@@ -39,12 +41,12 @@ from utils import label_map_util
 from utils import visualization_utils as vis_util
 
 
-# # Model preparation 
+# # Model preparation
 
 # ## Variables
-# 
-# Any model exported using the `export_inference_graph.py` tool can be loaded here simply by changing `PATH_TO_CKPT` to point to a new .pb file.  
-# 
+#
+# Any model exported using the `export_inference_graph.py` tool can be loaded here simply by changing `PATH_TO_CKPT` to point to a new .pb file.
+#
 # By default we use an "SSD with Mobilenet" model here. See the [detection model zoo](https://github.com/tensorflow/models/blob/master/object_detection/g3doc/detection_model_zoo.md) for a list of other models that can be run out-of-the-box with varying speeds and accuracies.
 
 # In[4]:
@@ -212,4 +214,4 @@ with detection_graph.as_default():
 #         line_thickness=8)
 
 
- 
+

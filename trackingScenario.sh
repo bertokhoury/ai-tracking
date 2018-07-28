@@ -10,6 +10,10 @@ sleep 10s
 # kill the python process, freeing gpu
 killall -9 python
 
+#run person_detection ??
+./start_person_detection.py
+
+
 # train model for tello
 
 ######################
